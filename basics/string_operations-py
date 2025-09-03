@@ -1,0 +1,15 @@
+# basics/string_operations.py
+# Demonstrates string concatenation and manipulation
+
+# Concatenation
+first_name = "Kelvin"
+last_name = "Legacci"
+full_name = first_name + " " + last_name
+print("Full Name:", full_name)
+
+# Upper and lower case
+print("Uppercase:", full_name.upper())
+print("Lowercase:", full_name.lower())
+
+# Length of string
+print("Length of full name:", len(full_name))
